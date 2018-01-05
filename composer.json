@@ -1,0 +1,28 @@
+{
+  "name": "ibrand/laravel-cache",
+  "type": "library",
+  "description": "Packaging commonly used caching usage extend Laravel's cache",
+  "keywords": [
+    "ibrand",
+    "laravel",
+    "cache"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "shjchen",
+      "email": "zdbd@vip.qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "iBrand\\Cache\\": "src/"
+    },
+    "files": [
+      "src/helps.php"
+    ]
+  }
+}
